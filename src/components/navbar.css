@@ -1,0 +1,48 @@
+.container{
+    margin-left: 10%;
+    margin-top: 2%;
+    display: flex;
+    margin-right: 8%;
+}
+
+.component1{
+    flex: 1;
+    display: flex;
+}
+.carImage{
+    width: 4rem;
+    height: 4rem;
+}
+
+.component2{
+    flex: 1.5;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 10px;
+   
+}
+
+.nav_item{
+    font-family: sans-serif;
+    font-weight: 550;
+}
+
+.nav_item:hover{
+    text-decoration: underline; 
+font-size: larger;
+
+}
+.component3{
+    flex: 1;
+    display: flex;
+    margin-left: 15%;
+}
+.swirl-in-fwd {
+	-webkit-animation: swirl-in-fwd 6000ms ease-out both;
+	        animation: swirl-in-fwd 6000ms ease-out both;
+}
+
+.icon{
+    padding-left: 20px;
+    cursor: pointer;
+}

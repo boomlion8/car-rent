@@ -1,0 +1,41 @@
+.vehicle{
+    margin-left: 30%;
+    margin-right: 20%;
+    margin-bottom: 5%;
+}
+
+.vehicle_component{
+    display: flex;
+    
+}
+
+.vehicle_image{
+    height: 54vh;
+    width: 18vw;
+}
+
+.vehicle_desc{
+    margin-left: 7%;
+    margin-right:20%;
+    margin-top: 20% ;
+}
+
+.slug{
+    text-transform: uppercase;
+    margin-left: 40%;
+    margin-bottom: 2%;
+    font-weight: bold;
+}
+
+th, td {
+    padding: 5px;
+    text-align: left;
+  }
+
+  th{
+    text-transform: uppercase;
+  }
+
+  .table{
+    margin-left: 30%;
+  }
