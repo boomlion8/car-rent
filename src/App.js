@@ -8,7 +8,7 @@ import Bottom from "./components/Bottom/Bottom";
 function App() {
   return (
     <>
-      <BrowserRouter>
+      <BrowserRouter basename="/Car-Rental">
         <Navbar />
         <Routes>
           <Route exact path="/" element={<Home />}></Route>
