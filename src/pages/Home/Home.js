@@ -5,7 +5,6 @@ import Details from "../../components/Details/Details";
 function Home() {
   return (
     <>
-      
       <Details />
       <Bottom />
     </>
